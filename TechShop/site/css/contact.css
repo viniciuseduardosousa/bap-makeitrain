@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size:  62.5%;
+    scroll-behavior: smooth;
+  }
+  body{
+    min-height: 100vh;
+    background:rgb(111, 149, 149);
+    
+  }
+  article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+  }
+  .contact{
+    min-height: 50rem;
+    min-width: 80rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 300%;
+    font-family: 'Odibee Sans',cursive;
+  }
+  h2{
+    padding: 5rem;
+    letter-spacing: 3px;
+  }
+  form{
+    display:grid;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+  }
+  .input{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+  }
